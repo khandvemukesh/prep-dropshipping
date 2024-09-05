@@ -1,0 +1,50 @@
+.loader {
+  display: grid;
+  position: absolute;
+  width: 99%;
+  z-index: 100;
+  background: #ffffff00;
+}
+
+.loader-img {
+  width: 188px;
+  display: block;
+  margin: auto;
+}
+
+tr>th,
+td {
+  white-space: nowrap;
+}
+
+.my-box {
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #33c4b7;
+  border-radius: 10px;
+}
+
+.my-font-style{
+  font-size: 14px;
+  font-weight: 500 !important;
+  color: #525050;
+}
+
+.image-loader {
+  display: grid;
+  position: absolute;
+  width: 96%;
+  z-index: 100;
+  height: 100%;
+  background: #5a5a5aab;
+}
+
+.vendor-details-box{
+  border-bottom: 1px solid #ececec;
+  margin-top: 10px;
+  padding-bottom: 3px;
+}
+
+.vendor-details-title {
+  font-weight: 600;
+}
