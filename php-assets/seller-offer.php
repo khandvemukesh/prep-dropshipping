@@ -1,5 +1,4 @@
-<div class="container-fluid pt-5">
-    <div class="row px-xl-5">
+    <div class="row mt-4">
         <div class="col-md-4">
             <div class="product-offer mb-30" style="height: 200px;">
                 <img class="img-fluid" src="<?php echo seller_assets_url() ?>img/offer-1.jpg" alt="">
@@ -31,4 +30,3 @@
             </div>
         </div>
     </div>
-</div>

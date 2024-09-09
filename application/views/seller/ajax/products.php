@@ -3,7 +3,7 @@ if ($productData['status'] == true) {
     foreach ($productData['data'] as $productObj) {
 ?>
         <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-            <div class="product-item bg-light m-2">
+            <div class="product-item bg-light mb-2">
                 <div class="product-img position-relative shadow-sm overflow-hidden">
                     <img class="img-fluid w-100" src="<?php echo $productObj['home_image'] ?>" alt="">
                     <div class="product-action">
@@ -26,6 +26,9 @@ if ($productData['status'] == true) {
                         <small class="fa fa-star text-primary mr-1"></small>
                         <small class="fa fa-star text-primary mr-1"></small>
                         <small>(99)</small>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center mb-1">
+                        <button class="btn btn-info btn-sm">Import</button>
                     </div>
                 </div>
             </div>
